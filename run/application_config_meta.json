@@ -1,0 +1,285 @@
+{
+  "keys": "/Users/wxz/learn/learn-egg/config/config.default.js",
+  "middleware": "/Users/wxz/learn/learn-egg/config/config.default.js",
+  "gzip": {
+    "threshold": "/Users/wxz/learn/learn-egg/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/wxz/learn/learn-egg/config/config.default.js",
+    "dir": "/Users/wxz/learn/learn-egg/config/config.default.js",
+    "dynamic": "/Users/wxz/learn/learn-egg/config/config.default.js",
+    "preload": "/Users/wxz/learn/learn-egg/config/config.default.js",
+    "msxAge": "/Users/wxz/learn/learn-egg/config/config.default.js",
+    "buffer": "/Users/wxz/learn/learn-egg/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/wxz/learn/learn-egg/node_modules/egg-static/config/config.default.js"
+  },
+  "test": "/Users/wxz/learn/learn-egg/config/config.local.js",
+  "session": {
+    "maxAge": "/Users/wxz/learn/learn-egg/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/wxz/learn/learn-egg/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/wxz/learn/learn-egg/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/wxz/learn/learn-egg/node_modules/egg-session/config/config.default.js"
+  },
+  "security": {
+    "domainWhiteList": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+    "csrf": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "type": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "useSession": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "refererWhiteList": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xframe": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "helper": {
+    "shtml": "/Users/wxz/learn/learn-egg/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/wxz/learn/learn-egg/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/wxz/learn/learn-egg/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wxz/learn/learn-egg/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/wxz/learn/learn-egg/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wxz/learn/learn-egg/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wxz/learn/learn-egg/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wxz/learn/learn-egg/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/wxz/learn/learn-egg/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/wxz/learn/learn-egg/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/wxz/learn/learn-egg/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/wxz/learn/learn-egg/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/wxz/learn/learn-egg/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/wxz/learn/learn-egg/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/wxz/learn/learn-egg/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/wxz/learn/learn-egg/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wxz/learn/learn-egg/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/wxz/learn/learn-egg/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wxz/learn/learn-egg/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wxz/learn/learn-egg/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wxz/learn/learn-egg/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/wxz/learn/learn-egg/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/wxz/learn/learn-egg/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/wxz/learn/learn-egg/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/wxz/learn/learn-egg/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/wxz/learn/learn-egg/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "name": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "version": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "description": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "main": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "author": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "license": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "private": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "egg": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "is-json": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "dev": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "debug": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "test": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "cov": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "lint": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "pkgfiles": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "autod": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "ci": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "url": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "keywords": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "bugs": {
+      "url": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "homepage": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "strict": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "depth": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "logger": {
+    "dir": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "env": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "level": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "logging": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "port": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/wxz/learn/learn-egg/node_modules/egg/config/config.default.js"
+}

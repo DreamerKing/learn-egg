@@ -1,0 +1,69 @@
+2019-09-30 00:35:06,586 ERROR 87915 [-/::1/-/21ms GET /needgzip] nodejs.TypeError: Invalid non-string/buffer chunk
+    at validChunk (_stream_writable.js:254:10)
+    at Gzip.Writable.write (_stream_writable.js:288:21)
+    at Gzip.Writable.end (_stream_writable.js:562:10)
+    at gzip (/Users/wxz/learn/learn-egg/app/middleware/gzip.js:14:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 87915
+hostname: haipengdeAir.lan
+
+2019-09-30 00:35:16,873 ERROR 87915 [-/::1/-/3ms GET /needgzip] nodejs.TypeError: Invalid non-string/buffer chunk
+    at validChunk (_stream_writable.js:254:10)
+    at Gzip.Writable.write (_stream_writable.js:288:21)
+    at Gzip.Writable.end (_stream_writable.js:562:10)
+    at gzip (/Users/wxz/learn/learn-egg/app/middleware/gzip.js:14:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 87915
+hostname: haipengdeAir.lan
+
+2019-09-30 00:41:29,750 ERROR 88367 [-/::1/-/16ms GET /needgzip] nodejs.TypeError: dest.on is not a function
+    at Gzip.Readable.pipe (_stream_readable.js:582:8)
+    at gzip (/Users/wxz/learn/learn-egg/app/middleware/gzip.js:13:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 88367
+hostname: haipengdeAir.lan
+
+2019-09-30 00:41:31,350 ERROR 88367 [-/::1/-/4ms GET /needgzip] nodejs.TypeError: dest.on is not a function
+    at Gzip.Readable.pipe (_stream_readable.js:582:8)
+    at gzip (/Users/wxz/learn/learn-egg/app/middleware/gzip.js:13:42)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 88367
+hostname: haipengdeAir.lan
+
+2019-09-30 00:42:45,920 ERROR 88459 [-/::1/-/15ms GET /needgzip] nodejs.TypeError: Invalid non-string/buffer chunk
+    at validChunk (_stream_writable.js:254:10)
+    at Gzip.Writable.write (_stream_writable.js:288:21)
+    at Gzip.Writable.end (_stream_writable.js:562:10)
+    at gzip (/Users/wxz/learn/learn-egg/app/middleware/gzip.js:14:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:189:7)
+
+pid: 88459
+hostname: haipengdeAir.lan
+
+2019-09-30 02:40:27,807 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 3611483ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 04:42:05,232 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7217399ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+

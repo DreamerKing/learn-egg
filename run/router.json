@@ -1,0 +1,53 @@
+[
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/",
+    "regexp": "/^(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [
+      {
+        "name": "name",
+        "prefix": "/",
+        "delimiter": "/",
+        "optional": false,
+        "repeat": false,
+        "partial": false,
+        "asterisk": false,
+        "pattern": "[^\\/]+?"
+      }
+    ],
+    "path": "/:name",
+    "regexp": "/^\\/((?:[^\\/]+?))(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/needgzip",
+    "regexp": "/^\\/needgzip(?:\\/(?=$))?$/",
+    "stack": [
+      "gzip",
+      "wrappedController"
+    ]
+  }
+]

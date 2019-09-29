@@ -1,0 +1,235 @@
+<!doctype html>
+
+<!--
+  This is a simple example / template impress.js slide show. The goal is to be
+  easier to read for a first timer than the official and very feature rich
+  demo by bartaz (http://bartaz.github.io/impress.js/). It's also a very
+  traditional presentation that looks like slides (square screens with bullet
+  points...), again to make a first timer feel more at home. From this simple
+  presentation you can then go on to more powerful impress.js presentations!
+  
+  This example is hopefully helpful for people that want to create both
+  simple and (eventually) awesome presentations in impress.js and comfortable
+  doing that directly in HTML.
+  
+  By: @henrikingo (Still based on the HTML from bartaz' demo.)  
+    
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>lear egg step by step</title>
+    <meta name="description" content="Explore impress.js in 3D" />
+    <meta name="author" content="Henrik Ingo" />
+    <link href="css/3D-rotations.css" rel="stylesheet" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js"></script>
+</head>
+
+<body class="impress-not-supported">
+<!-- <div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div> -->
+
+<div id="impress" data-transition-duration="2000">
+
+
+    <div id="overview" class="step overview" data-x="1350" data-y="100" data-z="100" data-scale="3" data-rotate-y="90">
+         <h1>先有蛋还先有鸡？</h1>
+         <a href="https://eggjs.org/zh-cn/intro/" target="_blank">Egg 入门</a>
+    </div>
+    <!-- <div id="overview2" class="step overview" data-x="2018" data-y="106" data-z="3018" data-scale="2">
+         <p>Unlike the <code>x/y/z</code> coordinates (aka translations), the <code>rotate-x/y/z</code> rotations are applied in a 
+         specific order, and order matters. This demo presentation exhibits the use of the new <code>data-rotate- order</code> attribute.
+         Instead of the default "xyz" order, the steps use the reversed <em>"zyx"</em> order in applying rotations around each axis.
+         Some of the steps (<a href="#step-3">3</a> &amp; <a href="#step-7">7</a>), are in positions that are not possible with the default "xyz" order.</p>
+    </div> -->
+
+    <div id="step-1" class="step" data-x="0" data-y="0" data-z="0"
+         data-goto-prev="step-9">
+        <p>入门点</p>
+        <ol>
+            <li>Web框架的演进</li>
+            <li>Egg的特性</li>
+            <li>Javascript异步解决方案的演进</li>
+            <li>Egg项目目录结构</li>
+            <li>内置对象</li>
+            <li>Config</li>
+            <li>Router</li>
+            <li>Controller</li>
+            <li>Service</li>
+            <li>......</li>
+        </ol>
+    </div>
+
+    <div id="step-2" class="step" data-x="420" data-y="-70" data-z="-250" data-rotate-z="45" data-rotate-y="-45" data-rotate-order="zyx">
+        <p>Web框架的演进</p>
+        <ul>
+            <li>同步 --> 异步</li>
+            <li>合 --> 分 --> 合</li>
+            <li>http --> connect --> express --> koa --> egg</li>
+        </ul>
+    </div>
+
+    <div id="step-3" class="step" data-x="700" data-y="350" data-z="-350" data-rotate-z="90" data-rotate-y="-90" data-rotate-order="zyx">
+        <p>Javascript异步解决方案的演进</p>
+        <ul>
+            <li>Callback</li>
+            <li>Iterator/Generator</li>
+            <li>Promise</li>
+            <li>Async/Await</li>
+        </ul>
+    </div>
+    <div id="step-4" class="step" data-x="422" data-y="780" data-z="-250" data-rotate-z="135" data-rotate-y="-135" data-rotate-order="zyx">
+        <p>Egg的特性</p>
+        <ol>
+            <li>基于Koa</li>
+            <li>基于约定</li>
+            <li>配置抽离</li>
+            <li>高度可扩展</li>
+            <li>渐进式开发</li>
+            <li>内置多进程管理</li>
+        </ol>
+    </div>
+    <div id="step-5" class="step" data-x="0" data-y="702" data-z="0" data-rotate-z="180" data-rotate-y="-180" data-rotate-order="zyx">
+        <p>Egg项目目录结构</p>
+        <pre><code>egg-project
+            ├── package.json
+            ├── app.js (可选)
+            ├── agent.js (可选)
+            ├── app
+            | ├── router.js 路由规则
+            │ ├── controller 控制层
+            │ | └── home.js
+            │ ├── service (可选) 服务层(业务逻辑层)
+            │ | └── user.js
+            | ├── model (可选) 数据模型层
+            │ | └── user.js
+            │ ├── middleware (可选) 中间件
+            │ | └── response_time.js
+            │ ├── schedule (可选) 定时任务
+            │ | └── my_task.js
+            │ ├── public (可选) 静态资源
+            │ | └── reset.css
+            │ ├── view (可选) 模版文件
+            │ | └── home.tpl
+            │ └── extend (可选) 框架扩展
+            │ ├── helper.js (可选)
+            │ ├── request.js (可选)
+            │ ├── response.js (可选)
+            │ ├── context.js (可选)
+            │ ├── application.js (可选)
+            │ └── agent.js (可选)
+            ├── config 配置
+            | ├── plugin.js
+            | ├── config.default.js
+            │ ├── config.prod.js
+            | ├── config.test.js (可选)
+            | ├── config.local.js (可选)
+            | └── config.unittest.js (可选)
+            └── test 测试用例
+            ├── middleware
+            | └── response_time.test.js
+            └── controller
+            └── home.test.js
+        </code>
+    </pre>
+    </div>
+
+    <div id="step-6" class="step" data-x="379" data-y="780" data-z="270" data-rotate-z="135" data-rotate-y="-225" data-rotate-order="zyx">
+        <p>内置对象</p>
+        <ol>
+            <li>Application</li>
+            <li>Context</li>
+            <li>Request</li>
+            <li>Response</li>
+            <li>Controller</li>
+            <li>Service</li>
+            <li>Config</li>
+            <li>Helper</li>
+            <li>Logger</li>
+        </ol>
+    </div>
+
+    <div id="step-7" class="step" data-x="700" data-y="350" data-z="350" data-rotate-z="90" data-rotate-y="-270" data-rotate-order="zyx" data-goto-next="step-8">
+        <p>配置与环境</p>
+        <p class="intruduction">配置文件的写法：1. 对象 2. 函数</p>
+        <ol>
+            <li>支持多环境配置</li>
+            <li>自动合并配置(extend2)</li>
+            <li>按序覆盖</li>
+        </ol>
+        <p class="intruduction">加载顺序：1. 默认优先 2. 插件 -> 框架 -> 应用</p>
+        <p class="intruduction">环境指定：1. 指定配置文件 2. 环境变量: EGG_SERVER_ENV</p>
+    </div>
+    <div id="step-8" class="step" data-x="0" data-y="-70" data-z="270" data-rotate-z="45" data-rotate-y="-315"
+        data-rotate-order="zyx" data-goto-next="step-9">
+        <p>Router</p>
+        <p class="intruduction">URL与Controller Action的映射关系</p>
+        <pre><code>router.verb('path-match', app.controller.action);
+router.verb('router-name', 'path-match', app.controller.action);
+router.verb('path-match', middleware1, ..., middlewareN, app.controller.action);
+router.verb('router-name', 'path-match', middleware1, ..., middlewareN, app.controller.action);
+// 1. app.controller.action
+// 2. 'controller.action'
+// Restfull     
+app.resources('routerName', 'pathMatch', controller)
+// 路由拆分
+// app/router.js
+module.exports = app => {
+require('./router/news')(app);
+require('./router/admin')(app);
+};
+
+// app/router/news.js
+module.exports = app => {
+app.router.get('/news/list', app.controller.news.list);
+app.router.get('/news/detail', app.controller.news.detail);
+};
+
+// app/router/admin.js
+module.exports = app => {
+app.router.get('/admin/user', app.controller.admin.user);
+app.router.get('/admin/log', app.controller.admin.log);
+};
+</code></pre>
+    </div>
+    <div id="step-9" class="step" data-x="80" data-y="-70" data-z="540" data-rotate-z="0" data-rotate-y="-315" data-rotate-order="zyx"
+         data-goto-next="step-10">
+        <p>控制器 Controller</p>
+        <p class="intruduction">解析请求并作出响应</p>
+        <ol>
+            <li>参数校验</li>
+            <li>数据组装</li>
+            <li>调用服务/请求转发或重定向</li>
+        </ol>
+        <p class="intruduction">常用属性和方法</p>
+        <ol>
+            <li>query/queries</li>
+            <li>params</li>
+            <li>body</li>
+            <li>header/headers</li>
+            <li>cookie/session</li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>
+        
+    </div>
+    <div id="step-10" class="step" data-x="379" data-y="0" data-z="270" data-rotate-z="80" data-rotate-y="-120"
+        data-rotate-order="zyx" data-goto-next="step-1">
+        <p>服务 Service</p>
+    </div>
+</div>
+
+<div id="impress-toolbar"></div>
+<div id="impress-help"></div>
+
+<script type="text/javascript" src="js/impress.js"></script>
+<script>impress().init();</script>
+
+</body>
+</html>
