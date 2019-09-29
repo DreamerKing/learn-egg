@@ -1,8 +1,11 @@
 {
   "name": "learn-egg",
   "version": "1.0.0",
-  "description": "",
+  "description": "learn egg",
   "main": "index.js",
+  "author": "DreamerKing <dreamingking@live.cn>",
+  "license": "MIT",
+  "private": false,
   "dependencies": {
     "egg": "^2.23.0"
   },
@@ -25,8 +28,6 @@
     "url": "git+https://github.com/DreamerKing/learn-egg.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/DreamerKing/learn-egg/issues"
   },
