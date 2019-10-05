@@ -67,3 +67,57 @@ name: "ClusterClientNoResponseError"
 pid: 74297
 hostname: haipengdeAir.lan
 
+2019-09-30 10:13:44,692 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7217336ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 12:15:02,822 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7218109ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 14:16:00,249 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7217409ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 16:16:58,123 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7217853ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 18:18:15,744 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 7217594ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+
+2019-09-30 19:27:38,141 ERROR 74297 nodejs.ClusterClientNoResponseError: client no response in 4142388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wxz/learn/learn-egg/node_modules/cluster-client/lib/leader.js:77:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: "ClusterClientNoResponseError"
+pid: 74297
+hostname: haipengdeAir.lan
+

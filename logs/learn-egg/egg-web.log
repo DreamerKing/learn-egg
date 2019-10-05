@@ -410,3 +410,14 @@
 2019-09-30 04:42:05,234 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
 2019-09-30 07:29:45,955 INFO 89807 [-/127.0.0.1/-/3ms SCHEDULE /__schedule?path=/Users/wxz/learn/learn-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "/var/folders/y_/qvk0lm3s3nnckyn0lzlfnmsw0000gp/T/egg-multipart-tmp/learn-egg"
 2019-09-30 07:29:45,970 INFO 89807 [-/127.0.0.1/-/19ms SCHEDULE /__schedule?path=/Users/wxz/learn/learn-egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2019-09-30 10:13:44,691 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-30 12:15:02,823 WARN 89807 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-30 12:15:02,823 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-30 14:16:00,249 WARN 89807 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-30 14:16:00,250 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-30 16:16:58,124 WARN 89807 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-30 16:16:58,124 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-30 18:18:15,744 WARN 89807 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-30 18:18:15,744 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-09-30 19:27:38,141 WARN 89807 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-09-30 19:27:38,141 WARN 89807 [ClusterClient:Watcher] follower closed, and try to init it again
