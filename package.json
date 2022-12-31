@@ -11,7 +11,7 @@
     "is-json": "^2.0.1"
   },
   "devDependencies": {
-    "egg-bin": "^4.13.2"
+    "egg-bin": "^4.20.0"
   },
   "scripts": {
     "dev": "egg-bin dev",
